@@ -25,7 +25,7 @@ SECRET_KEY = 'ja#^mmnq(@tamck@3sjf%mt%m_57s+$+0@gupfffx$ohznejaj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["ec2-54-237-218-65.compute-1.amazonaws.com"]
 
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
