@@ -113,11 +113,21 @@ if 'RDS_HOSTNAME' in os.environ:
 else: 
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': "ebdb",
+            'USER': "oazadmin",
+            'PASSWORD': "vs7H6t5RaHq9xDT",
+            'HOST': "aa1xzp28rapfyk8.cfdeoat2dcba.us-east-1.rds.amazonaws.com",
+            'PORT': "3306",
         }
     }
 
+    # DATABASES = {
+    #     'default': {
+    #         'ENGINE': 'django.db.backends.sqlite3',
+    #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    #     }
+    # }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
