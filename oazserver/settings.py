@@ -117,7 +117,7 @@ else:
             'NAME': 'ebdb',
             'USER': 'JaeminAWS',
             'PASSWORD':'vwXf9eh!kQHXBdr',
-            'HOST': 'backendoaz-env-2.eba-me3fmpij.ap-northeast-2.elasticbeanstalk.com',
+            'HOST': 'aa1s3wgnlfh3942.cckruyvjchfw.ap-northeast-2.rds.amazonaws.com',
             'PORT':3306,
         }
     }
