@@ -110,11 +110,15 @@ if 'RDS_HOSTNAME' in os.environ:
             'PORT': os.environ['RDS_PORT'],
         }
     }
-else: 
+else:
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'ebdb',
+            'USER': 'JaeminAWS',
+            'PASSWORD':'vwXf9eh!kQHXBdr',
+            'HOST': 'BackendOaz-env.eba-me3fmpij.ap-northeast-2.elasticbeanstalk.com',
+            'PORT':3306,
         }
     }
 
