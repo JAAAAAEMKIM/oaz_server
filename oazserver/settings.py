@@ -25,7 +25,7 @@ SECRET_KEY = 'ja#^mmnq(@tamck@3sjf%mt%m_57s+$+0@gupfffx$ohznejaj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['backendoaz-env-2.eba-me3fmpij.ap-northeast-2.elasticbeanstalk.com', '127.0.0.1']
+ALLOWED_HOSTS = ['backendoaz-env-2.eba-me3fmpij.ap-northeast-2.elasticbeanstalk.com', '127.0.0.1', '3.34.14.219']
 
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
